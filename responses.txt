@@ -1,0 +1,65 @@
+# Responses
+
+The docker run ubuntu command started a real docker image and takes
+us inside the ubuntu container with the displayed container ID. \
+
+At first we see that no docker container is running with the ps command.
+Then we run the ubuntu container and check again with the ps command
+and we can see that there is an active container and we can see what the
+ID is. \
+
+It appears that the command shut down the specified docker container. \
+
+Initially it did look like my userid was running. I checkd using the
+docker ps command to see what was running and it looked liked several
+were running. I must not have shut them all down because I had some
+trouble installing with windows and may have forgotten to shut them
+down. But after running docker rm @(docker ps -aq) it seemed to remove 
+all the running ones and I was able to start one using the correct
+userid on my machine. \
+
+The ubuntu container with my id was started and then we updated from within
+the docker container. \
+
+I learned that we can install things such as vim from within the docker ubuntu
+container via apt-get and navigate through directories as we would in a command
+prompt. \
+
+This command command returns a live data stream for running containers. 
+And the flags limited the data to specific containers in this case the no
+stream restriction which appears to be the ones with active memory. \ 
+
+docker stops followed by the specified docker container and
+ubuntu (or whatever you're running) shuts down that docker conatiner specifically.
+Meaning you cannot access it from the command prompt. \
+
+The docker kill subcommand kills one or more containers. The main process inside 
+the container is sent signal and it can be specified with the user id. \
+
+This command ran the docker container and started a directory inside of it
+and the -v command stands for mount volumes or current directories. \
+
+My container was not running. Perhaps because I shut it down differnntly but
+that is working correctly by the rules of the cp command. I will just start it
+again. \
+
+I see nothing but perhaps because there is no clab1.txt file. the vi command opened it
+inside the docker command so maybe I need to create it here? \
+
+I see the ubuntu container has been added. \
+
+It appears weave just added another docker ubuntu containers that has the tag update
+and committed it so that it to docker images. \
+
+This information is a json of all the inforation about the updated ubuntu conatiner
+that we added in the last line. It has it's id, tags, repo metadata, and some other 
+informaiton about this object. \
+
+
+
+
+
+
+
+
+
